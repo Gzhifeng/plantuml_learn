@@ -1,0 +1,15 @@
+@startuml
+'关键字 autonumber 用于自动对消息编号
+autonumber
+Bob -> Alice: Authentication Request
+Alice --> Bob: Authentication Response
+
+'语句 autonumber start 用于指定编号的初始值，而 autonumber startincrement 可以同时指定编号的初始值和每次增加的值
+autonumber 15
+Bob -> Alice: Another authentication Request
+Bob <-- Alice: Another authentication Response
+
+autonumber 40 10
+Bob -> Alice: Yet Another authentication Request
+Bob <-- Alice: Yet Another authentication Response
+@enduml
