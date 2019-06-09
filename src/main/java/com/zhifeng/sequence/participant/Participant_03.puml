@@ -1,0 +1,12 @@
+@startuml
+/'在参与者中使用非字母符号
+你可以使用引号定义参与者，还可以用关键字 as 给参与者定义别名'/
+Alice -> "Bob()": hello
+"Bob()" -> "This is very\nlong" as Long
+'You can also declare: "Bob()" -> Long as "This is very\nlong"
+Long --> "Bob()": ok
+
+/'给自己发消息
+参与者可以给自己发信息，消息文字可以用\n来换行'/
+Alice -> Alice: This is a signal to self.\n It also demonstrates \n multiline \n text
+@enduml

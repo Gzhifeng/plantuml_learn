@@ -10,9 +10,12 @@
 uml分类
 ---
 这些类型，每个都需要自己跟着 http://plantuml.com/zh/ 写一遍（只记录已经学习或正在学习的类型）
-+ 时序图(sequence)
-
-
++ 时序图(sequence)<br/>
+    + SimpleExample.class 简单示例
+    + package participant &nbsp;&nbsp;&nbsp;声明参与者,查看顺序按照 X*_num.puml。此处命名方式仅为方便学习，并不建议采取此种命名方式   
+    + package arrow &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修改箭头样式,颜色
+    + package autonumber 对消息序列编号
+    
 参考链接和学习网站
 -
 基本语法演示

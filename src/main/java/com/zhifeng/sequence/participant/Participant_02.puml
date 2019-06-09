@@ -1,0 +1,16 @@
+@startuml
+'关键字 as 用于重命名参与者
+actor Bob #red
+'The only difference between actor and participant is the drawing
+participant Alice
+participant "I have a really\nolong name" as L #99FF99
+'You can also declare: participant L as "I have a really\nlong name"  #99FF99
+Alice -> Bob: Authentication Request
+Bob --> Alice: Authentication Response
+Bob -> L: Log transaction
+
+'您可以使用关键字 order自定义顺序来打印参与者
+participant Last order 30
+participant Middle order 20
+participant First order 10
+@enduml
