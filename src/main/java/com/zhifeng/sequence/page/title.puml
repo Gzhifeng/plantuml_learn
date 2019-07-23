@@ -1,0 +1,11 @@
+@startuml
+'页脚怎么使用，有待研究
+header Page Header
+footer Page %page% of %lastpage%
+
+title Example title
+
+Alice -> Bob : massage 1
+Alice <- Bob : massage 2
+
+@enduml
