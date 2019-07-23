@@ -15,6 +15,8 @@ uml分类
     + package participant &nbsp;&nbsp;&nbsp;声明参与者,查看顺序按照 X*_num.puml。此处命名方式仅为方便学习，并不建议采取此种命名方式   
     + package arrow &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;修改箭头样式,颜色
     + package autonumber 对消息序列编号
+    + package page Title, Header and Footer【页脚使用有问题】
+    + package segmentation 分割示意图
     
 参考链接和学习网站
 -
